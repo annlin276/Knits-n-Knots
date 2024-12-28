@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Soft off-white background */
+    color: #333333; /* Dark grey text for better readability */
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark blue-grey for a more professional look */
+}
+
+/* Navbar */
+.navbar-inverse {
+    background-color: #34495e; /* Deep slate blue for a more sophisticated feel */
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar-nav > li > a {
+    color: #ecf0f1; /* Light grey text */
+    font-size: 16px;
+}
+
+.navbar-nav > li > a:hover, 
+.navbar-nav > .active > a {
+    background-color: #e67e22; /* Warm amber for hover effects */
+    color: #fff; /* White text on hover */
+}
+
+#logotext {
+    color: #e67e22; /* Amber to match the hover effect */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Team Section */
+.team-section {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.thumbnail {
+    background-color: #ecf0f1; /* Light grey for a softer background */
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lighter shadow for a softer feel */
+}
+
+.thumbnail img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.1);
+}
+
+.caption p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #7f8c8d; /* Subtle grey text for descriptions */
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #34495e; /* Same as navbar for consistency */
+    text-align: center;
+    color: #ecf0f1; /* Light grey text */
+}
+
+

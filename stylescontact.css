@@ -1,0 +1,24 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff; 
+}
+
+/* Navbar */
+.navbar-inverse {
+    background-color: #1f1f1f;
+    border-color: #2e2e2e;
+}
+
+.navbar-inverse .navbar-brand img {
+    height: 50px; /* Adjusted logo height */
+    width: auto; 
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #d1d1d1; 
+    font-weight: bold; 
+}

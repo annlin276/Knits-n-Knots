@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+            body {
+              font-family: 'Arial', sans-serif;
+              line-height: 1.6;
+              background-color: #fbf7f7;
+              color: #333;
+            }
+            #logo {
+              height: 50px;
+            }
+            .navbar-inverse {
+              background-color: #2c3e50;
+              border: none;
+              box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            .navbar-inverse .navbar-nav > li > a {
+              color: white;
+              font-size: 16px;
+            }
+            .navbar-inverse .navbar-nav > li > a:hover {
+              background-color: #34495e;
+              color: #fff;
+            }
+            #logotext {
+              font-size: 22px;
+              color: white;
+              padding-top: 10px;
+              font-weight: bold;
+            }
+            h1, h4 {
+              font-weight: bold;
+              text-align: center;
+            }
+            #maintext {
+              font-size: 16px;
+              text-align: justify;
+              margin-top: 20px;
+            }
+            blockquote {
+              font-size: 18px;
+              border-left: 5px solid #7f8c8d;
+              padding-left: 15px;
+              margin: 20px 0;
+            }
+            #Start {
+              background-color: #e74c3c;
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              display: block;
+              margin: 0 auto;
+            }
+            #Start:hover {
+              background-color: #c0392b;
+            }
+            #mainpic, #mainpic2 {
+              max-width: 100%;
+              height: auto;
+              display: block;
+              margin: 0 auto;
+              border-radius: 10px;
+            }
+            #textcenter {
+              text-align: justify;
+            }
+            #foot {
+              text-align: center;
+              padding: 20px;
+              background-color: #ecf0f1;
+              margin-top: 40px;
+              font-size: 14px;
+              color: #1085fb;
+            }
+            #foot a {
+              text-decoration: none;
+              color: #e74c3c;
+              font-weight: bold;
+            }
+            #foot a:hover {
+              color: #c0392b;
+            }
+    </style>
+    <title>KNIT&KNOTS</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><img id="logo" src="knits.jpg"alt="Knits"></a>
+        </div>
+        <ul class="nav navbar-nav navbar-left">
+          <li><a id="logotext" href="index.html">KNITS&KNOTS</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <br>
+          <h1 id="mainhead">KNITS&KNOTS</h1>
+          <h4><small>"Knits & Knots: Handcrafted knitting, crochet, and macramé creations that add warmth and charm to your life."</small></h4>
+          <br>
+          <p id="maintext">"Knits & Knots: Your go-to hub for handcrafted wonders, offering unique knitting, crochet, and macramé creations that 
+            bring warmth and charm to your life. Explore creativity, one thread at a time!"</p>
+          <br>
+          <blockquote>
+            <p>"Just make your orders NOW"</p>
+            <footer>Annlin</footer>
+          </blockquote>
+          <br>
+          <button type="button" id="Start" value="start">TO ORDER</button>
+        </div>
+        <div class="col-sm-6">
+          <img id="mainpic" src="image.jpg" alt="knits&knots">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-6" id="pic2holder">
+          <img id="mainpic2" src="image.jpg" alt=" Design">
+        </div>
+        <div class="col-sm-6" id="mainpara2">
+          <br>
+          <br>
+          <h5 id="textcenter">"Knits & Knots specializes in handcrafted knitting, crochet, and macramé creations made with care and creativity. 
+            Each piece is designed to add warmth, charm, and personality to your space or wardrobe.<br>
+            We celebrate the art of crafting, blending timeless techniques with modern designs. Whether
+             you're looking for unique gifts or cozy accents, you'll find something special here. <br>
+             From intricate wall hangings to cozy blankets and stylish accessories, each item is crafted with love and attention to detail<br><br>
+             At Knits & Knots, we believe in the beauty of handmade artistry, celebrating the joy of crafting and sharing it with others."<br><br>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div id="foot">
+      <p>Contact us at <br> <strong>_.knits.and.knots._</strong> <br> or <br> <strong>knitsknots@gmail.com</strong><br>
+      or <br> <a href="contact.html"><strong>Contact Us</strong></a> <br> for more info.</p>
+    </div>
+
+  </body>
+</html>  
